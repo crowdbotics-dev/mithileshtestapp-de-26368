@@ -25,7 +25,7 @@ const Untitled1 = () => {
       id: "3",
       value: "3",
       label: "Option 4"
-    }]} layout="row" style={{
+    }]} layout="column" style={{
       left: 63,
       top: 104,
       position: "absolute",
