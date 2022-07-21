@@ -21,14 +21,13 @@ const Untitled1 = () => {
       id: "2",
       value: "2",
       label: "Option 3"
-    }, {
-      id: "3",
-      value: "3",
-      label: "Option 4"
     }]} layout="row" style={{
-      left: 71,
-      top: 47,
-      position: "absolute"
+      left: 63,
+      top: 104,
+      position: "absolute",
+      width: 80,
+      height: 150,
+      transform: "rotate(0deg)"
     }}></RadioGroup></View>;
 };
 
