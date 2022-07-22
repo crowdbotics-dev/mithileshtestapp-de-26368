@@ -6,7 +6,7 @@ const Untitled1 = () => {
     backgroundColor: '#f0f0f1',
     padding: 10,
     position: 'relative',
-    height: '100%'
+    height: '101%'
   }}>
       </View>;
 };
