@@ -6,14 +6,14 @@ const Untitled1 = () => {
     backgroundColor: '#f0f0f1',
     padding: 10,
     position: 'relative',
-    height: '101%'
+    height: '100%'
   }}>
       <View style={{
-      left: 26,
-      top: 52,
+      left: 24,
+      top: 43,
       position: "absolute",
-      height: 90,
-      width: 90,
+      height: 50,
+      width: 50,
       backgroundColor: "#E4E4E4",
       borderRadius: 0,
       color: "#777777"
