@@ -8,16 +8,7 @@ const Untitled1 = () => {
     position: 'relative',
     height: '100%'
   }}>
-      <View style={{
-      left: 24,
-      top: 43,
-      position: "absolute",
-      height: 70,
-      width: 50,
-      backgroundColor: "#E4E4E4",
-      borderRadius: 0,
-      color: "#777777"
-    }}></View></View>;
+      </View>;
 };
 
 export default Untitled1;
