@@ -14,7 +14,6 @@
   "dependencies": {
     "@modules/chat": "file:./modules/chat/",
     "@modules/maps": "file:./modules/maps/",
-    "@modules/onboarding": "file:./modules/onboarding/",
     "@modules/push-notifications": "file:./modules/push-notifications/",
     "@react-native-community/masked-view": "^0.1.10",
     "@react-navigation/native": "^5.9.3",
