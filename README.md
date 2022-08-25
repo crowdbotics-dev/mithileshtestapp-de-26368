@@ -63,6 +63,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [screen-login-2](screens/login-2)
 - [react-native-maps](modules/maps)
 - [react-native-chat](modules/chat)
+- [django-articles](backend/modules)
 
 # Getting started: Frontend
 
