@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7c7cec74b6e6df29519b141ddbfa7da2cfba915421bf8bd27ea05932dc93170b"
+            "sha256": "0324bbee3296c8a8b2012dcc00c4bbc9e048ced998e85ae17b53c95e78f8503b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -55,6 +55,10 @@
             ],
             "markers": "python_version ~= '3.7'",
             "version": "==5.2.0"
+        },
+        "cb-django-articles": {
+            "editable": true,
+            "path": "./modules/django_articles"
         },
         "cb-django-push-notifications": {
             "editable": true,
@@ -297,6 +301,9 @@
             "version": "==3.8.0"
         },
         "google-api-core": {
+            "extras": [
+                "grpc"
+            ],
             "hashes": [
                 "sha256:06f7244c640322b508b125903bb5701bebabce8832f85aba9335ec00b3d02edc",
                 "sha256:93c6a91ccac79079ac6bbf8b74ee75db970cc899278b97d53bc012f35908cf50"
