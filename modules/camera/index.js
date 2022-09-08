@@ -1,3 +1,4 @@
+import { StyleSheet } from "react-native";
 import React, { useRef, useContext, useEffect, useState } from "react";
 import { Text, View, TouchableOpacity, FlatList, ImageBackground } from "react-native";
 import ActionSheet from "react-native-actionsheet";
@@ -34,9 +35,7 @@ const Camera = () => {
     }} style={styles.image}></ImageBackground>
     </TouchableOpacity>;
 
-  return <View style={{
-    flex: 1
-  }}>
+  return <View style={_styles.tFBnqAOn}>
       <FlatList data={data} keyExtractor={item => item.id} renderItem={renderItem} />
       <ActionSheet ref={actionSheet} title={"Select Image"} options={ImagePickerOptions} cancelButtonIndex={2} onPress={async index => {
       let res;
@@ -67,3 +66,9 @@ export default {
   title: "Camera",
   navigator: Camera
 };
+
+const _styles = StyleSheet.create({
+  tFBnqAOn: {
+    flex: 1
+  }
+});
