@@ -62,6 +62,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [django-articles](backend/modules)
 - [django-2fa](backend/modules)
 - [django-social-auth](backend/modules)
+- [react-native-live-camera-filters](modules/live-camera-filters)
 
 # Getting started: Frontend
 
