@@ -2,14 +2,14 @@ import React from "react";
 import { View, StyleSheet } from "react-native";
 
 const Untitled4 = () => {
-  return <View style={_styles.lfxLeFUq}>
+  return <View style={_styles.gJqvyIUN}>
       </View>;
 };
 
 export default Untitled4;
 
 const _styles = StyleSheet.create({
-  lfxLeFUq: {
+  gJqvyIUN: {
     backgroundColor: "#f0f0f1",
     padding: 10,
     position: "relative",
